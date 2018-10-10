@@ -1,0 +1,6 @@
+N = int(input())
+O = input().split(' ')
+P = list(map(int, O))
+Q = set(P)
+R = sorted(list(Q))
+print(R[-2])
